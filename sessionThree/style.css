@@ -1,0 +1,116 @@
+/* 
+
+  css selectors
+
+  1- by name: p {
+  }
+
+  p {
+    background-color: red;
+}
+
+2- by class name: .class-name {
+
+}
+
+
+.class-name {
+  background-color: red;
+}
+
+3- by id: #idName {
+}
+
+#idName {
+  background-color: red;
+}
+
+element if has a specific class: p.class-name {
+}
+
+
+this will apply the style only if there is a p element and has a class called class-name
+
+p.class-name {
+  background-color: red;
+}
+
+
+the next siebling of the element: element + element {
+}
+
+this will apply the style if there is an element h1 and an p element after it
+
+h1 + p {
+  background-color: red;
+}
+
+
+the child of the element: element > element {
+}
+
+will apply the style only if there is a p element inside a div element 
+
+
+div > p {
+  background-color: red;
+}
+
+
+
+colors {
+  hex => #000000
+  name => red
+  rgb => rgb(0, 0, 0)
+  hsl(0 - 360, 100%, 100%) hue, saturation, lightness
+}
+
+
+to apply a style on more than an element
+
+p,
+h1 {
+  background-color: red;
+}
+*/
+
+
+
+
+
+/* 
+properties
+
+border
+padding
+margin
+color
+background-color
+
+
+
+borders {
+  border-style:
+  border-width{
+    thick
+    medium
+  }
+  border-color:
+  border-right-style:
+  border-style: top right bottom left
+  border: => shorthand width style color
+  border-radius
+}
+margin {
+  margin-right:
+  margin: top right bottom left
+  mention margin collaps
+}
+padding {
+  padding-right:
+  padding: top right bottom left
+}
+height
+width
+
+*/
