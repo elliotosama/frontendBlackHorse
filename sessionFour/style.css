@@ -1,0 +1,160 @@
+/* 
+
+background-image: url("")
+  background-repeat: {
+    repeat
+    no-repeat
+    repeat-x
+    repeat-y
+  }
+  background-attachment => should scroll or be fixed {
+    scroll
+    fixed
+  background-position: right top
+  background => shorthand => : color image repeat position
+}
+
+
+
+text {
+    test-align: {
+      left
+      right
+      center
+    }
+    text-decoration{
+      color
+      line
+      style
+      thickness
+    }
+    text-transformation{
+      uppercase
+      lowercase
+      capitalize
+    }
+
+    spacing {
+      letter-spacing	Specifies the space between characters in a text
+      line-height	Specifies the line height
+      text-indent	Specifies the indentation of the first line in a text-block
+      white-space	Specifies how to handle white-space inside an element
+      word-spacing	Specifies the space between words in a text
+    }
+  text-shadow: horizontal vertical blur color
+}
+
+flex {
+  order	Controls the order in which items appear in the flex container
+  flex-grow	Defines how much the item will grow relative to others
+  flex-shrink	Defines how the item will shrink relative to others
+  flex-basis	Sets the initial main size of the item before space is distributed
+  flex	Shorthand for flex-grow, flex-shrink, and flex-basis (e.g., 1 0 auto)
+  align-self
+  gap
+*/
+
+
+
+
+
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  text-align: end;
+} */
+
+/*
+.one {
+  margin-bottom: 10px;
+}
+
+.two {
+  margin-top: 20px;
+} */
+
+
+/* a {
+  /* text-decoration-style: solid;
+  text-decoration-color: red;
+  text-decoration-thickness: 4px; */
+  /* text-decoration: none; */
+  /* text-transform: capitalize; */
+
+
+
+p {
+  /* letter-spacing: 4px; */
+  /* word-spacing: 5px; */
+  /* line-height: 50px; */
+  /* text-indent: 50px; */
+  /* white-space: 100px; */
+  /* text-shadow: 1px 1px 1px red; */
+}
+
+
+/* div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+} */
+
+
+/* .inline-box {
+  display: inline;
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.inline-block-box {
+  display: inline-block;
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.block-box {
+  display: block;
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+} */
+
+
+/* .container{
+  display: flex;
+  background-color: #c8c5c5;
+  width: 400px;
+  height: 600px;
+  flex-wrap: wrap;
+  gap: 10px; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+/* } */
+/* 
+
+  flex-start
+  center
+  flex-end
+  space-between
+  space-around
+  space-evenly
+*/
+
+
+/* div > div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
