@@ -1,0 +1,280 @@
+
+/* box-shadow
+
+box-shadow: offset-x offset-y blur-radius spread-radius color;
+*/
+
+
+
+
+ /* 
+  flex-flow: direction wrap
+  flex-grow
+  flex-shrink
+  flex-basis
+  flex: flex-grow flex-shrink flex-basis
+ */
+
+
+ /* 
+  important:
+  overflow {
+  hidden
+  scroll
+  visible
+  auto: like scroll but add scroll bar if needed
+}
+ */
+
+
+
+
+/* .container {
+  display: flex;
+  height: 300px;
+  background: lightgray;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.container > div{
+  width: 100px;
+  height: 50px;
+  background: coral;
+  margin: 5px;
+}
+
+
+.box1 {
+  font-family: "Times New Roman", Times, serif;
+  align-self: center;
+} */
+
+/* .container {
+  display: flex;
+  height: 300px;
+  background: lightgray;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 100px;
+  height: 50px;
+  background: coral;
+  margin: 5px;
+} */
+
+
+
+/* 
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #333;
+  padding: 10px;
+  overflow: auto; 
+} */
+
+
+
+
+/* ------------------------------------ */
+
+/* grid */
+
+/* 
+display: grid or inline-grid	Turns the container into a grid.
+grid-template-columns	Defines the width of each column. Example: 200px 1fr 1fr
+grid-template-rows	Defines the height of each row.
+grid-template-areas	Names specific areas of the grid to place items more semantically.
+grid-gap / gap	Space between rows and columns.
+justify-items	Aligns items horizontally (start, end, center, stretch).
+align-items	Aligns items vertically (start, end, center, stretch).
+justify-content	Aligns entire grid horizontally.
+align-content	Aligns entire grid vertically.
+
+
+/* 
+grid-column-start, grid-column-end	Where the item starts/ends in the columns.
+grid-row-start, grid-row-end	Same for rows.
+grid-column	Shorthand for start / end.
+grid-row	Same as above for rows.
+grid-area	Name a grid item to place it via grid-template-areas.
+justify-self	Aligns a single item horizontally.
+align-self
+
+*/
+
+/* 
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "one one one two two"
+  "three three three three three";
+}
+
+.container > div {
+  background-color: red;
+}
+
+
+.one {
+  justify-self: flex-end;
+} */
+
+
+
+
+
+/* box-sizing */
+/* div {
+  width: 100px;
+  padding: 10px;
+  border: 10px solid red;
+  margin: 10px;
+  height: 100px;
+  box-sizing: border-box;
+} */
+
+
+
+/* variables */
+
+/* :root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+} */
+
+
+/* div{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 3px 1px #cdcccc, 10px 10px 10px 2px yellow;
+} */
+
+
+/* 
+div {
+  position: relative;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+} */
+
+
+
+
+/* .container {
+  display: flex;
+  background-color: antiquewhite;
+  gap: 10px;
+  height: 800px;
+  flex-wrap: wrap;
+}
+
+.container div {
+  background-color: orange;
+  width: 60px;
+  height: 50px;
+} */
+
+
+
+/* p { */
+  /* font-size: 40px; */
+  /* font-weight: 800; */
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-style: normal; */
+/* } */
+
+
+
+/* 
+body {
+  height: 1500px;
+}
+.container {
+  width: 150px;
+  top: 0px;
+  height: 150px;
+  background-color: blanchedalmond;
+  position: sticky;
+  margin-top: 60px
+} */
+/* 
+.container div {
+  position: absolute;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+} */
+
+/* body {
+  height: 1800px;
+}
+div {
+  width: 80%;
+  margin: auto;
+  background-color: #000;
+  top: 0px;
+  position: sticky;
+  height: 80px;
+} */
+
+
+
+.container {
+  display: grid;
+  width: 600px;
+  background-color: #c5c2c2;
+  grid-template-areas: "one one one one one one"
+  "two two two two two three"
+  "two two two two two four"
+  "five five six six seven seven"
+  "eight eight nine nine ten ten";
+  gap: 10px;
+}
+
+.container > div {
+  background-color: red;
+}
+
+.box1 {
+  grid-area: one;
+}
+.box2 {
+  grid-area: two;
+}
+.box3 {
+  grid-area: three;
+}
+.box4 {
+  grid-area: four;
+}
+.box5 {
+  grid-area: five;
+}
+.box6 {
+  grid-area: six;
+}
+.box7 {
+  grid-area: seven;
+}
+.box8 {
+    grid-area: eight;
+}
+.box9{
+  grid-area: nine;
+}
+
+.empty {
+  background-color: #c5c2c2 !important;
+  grid-area: ten;
+}
