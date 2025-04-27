@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  background-color: #eee;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.container > div {
+  background-color: red;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+}
