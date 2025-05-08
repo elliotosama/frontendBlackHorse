@@ -1,0 +1,48 @@
+/* body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+div {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+h2 {
+  font-weight: bold;
+  color: grey;
+}
+
+p, .price {
+  color: grey;
+}
+
+.price {
+  font-size: 14px;
+} */
+
+
+/* button {
+  background-color: #eee;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: blue;
+} */
